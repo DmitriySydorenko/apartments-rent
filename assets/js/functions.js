@@ -242,15 +242,23 @@ function validationFooterForm() {
   console.dir(test);
 
   formUserEmail.addEventListener('blur',function(){
-    if (formUserEmail.value.match(validation.userEmail) && test.checked) {
+    if (formUserEmail.value.match(validation.userEmail)) {
       formUserEmail.classList.remove('form-block_input--error');
-/*       let buttonSend = document.querySelector('.button_footer');
-      console.log(buttonSend); */
-
     } else {
       formUserEmail.classList.add('form-block_input--error');
     }
   });
+  
+        let buttonSend = document.querySelector('.button_footer');
+        buttonSend.addEventListener('click', function() {
+          if (formUserEmail.value.match(validation.userEmail) && test.checked) {
+            console.dir(formUserEmail);
+            formUserEmail.value = 'Successfully sent';
+            setTimeout(()=> formUserEmail.value = '',1000);
+            
+          }
+        });
+        
 }
 
 // buildElement 
