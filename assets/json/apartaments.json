@@ -1,0 +1,26 @@
+[
+  {
+    "image": "assets/images/house1.jpeg",
+    "link": "view",
+    "title": "Apartament1",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat possimus quaerat alias sed temporibus nostrum.",
+    "price": "75$/night",
+    "location": "Ukraine. Odessa"
+  },
+  {
+    "image": "assets/images/house2.jpeg",
+    "link": "view",
+    "title": "Apartament2",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus mollitia voluptatum earum deserunt expedita aut, architecto modi!",
+    "price": "50$/night",
+    "location": "Ukraine. Lviv"
+  },
+  {
+    "image": "assets/images/house3.jpeg",
+    "link": "view",
+    "title": "Apartament3",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "price": "100$/night",
+    "location": "Ukraine. Kyiv"
+  }
+]
