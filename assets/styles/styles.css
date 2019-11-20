@@ -10,7 +10,7 @@ body {
 }
 
 .wrapper {
-  width: 1500px;
+  max-width: 1500px;
   padding: 0 10px;
   margin: 0 auto;
 }
@@ -161,13 +161,6 @@ body {
 
 .header_top {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: relative;
 }
 
 .header_top--fix {
@@ -175,9 +168,23 @@ body {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   top: 0;
-  background: rgba(0, 0, 0, 0.7);
   padding: 0 100px;
   z-index: 100;
+}
+
+.header_top--fix_color {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
+
+.header_top-background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
 }
 
 .header_logo {
@@ -295,7 +302,6 @@ body {
 
 /*---Section appartaments ---*/
 .section_appartaments {
-  width: 1500px;
   padding: 0 10px;
   margin: 0 auto;
   display: -webkit-box;
@@ -319,6 +325,7 @@ body {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  width: 1500px;
 }
 
 .appartaments_container {
@@ -336,7 +343,7 @@ body {
       -ms-flex-pack: end;
           justify-content: flex-end;
   border: 2px solid rgba(0, 0, 0, 0.2);
-  width: 30%;
+  width: 444px;
   height: 520px;
   -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
           box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
@@ -807,5 +814,11 @@ body {
 .form-block_send--show {
   display: inline-block;
   color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1850px) {
+  .header_top {
+    width: 75%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

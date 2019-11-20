@@ -5,8 +5,10 @@ $(document).ready(function() {
     console.log('top');
     if ($(this).scrollTop() >= 800) {
       $(".header_top").addClass("header_top--fix");
+      $(".header_top").addClass("header_top--fix_color");
     } else {
       $(".header_top").removeClass("header_top--fix");
+      $(".header_top").removeClass("header_top--fix_color");
     }
   });
 });
