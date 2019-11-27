@@ -925,11 +925,37 @@ body {
 }
 
 @media (max-width: 415px) {
-  .header_content {
-    margin-top: 45%;
+  .wrapper {
+    padding: 0 15px;
+  }
+  .header {
+    &_content {
+      margin-top: 45%;
+    }
+    &_logo-image {
+      width: auto;
+    }
+    &-hamburger_btn {
+      right: 0;
+    }
+    &-navigation_list--visible {
+      right: 0;
+    }
   }
   .title-additional {
     font-size: 30px;
+  }
+  .form-block {
+    align-items: center;
+    padding: 20px;
+    &_part {
+      width: 80%;
+      &:last-of-type {
+        margin-bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+      }
+    }
   }
   .appartaments {
     &_wrapper {
@@ -943,6 +969,18 @@ body {
     }
     &_text-block {
       font-size: 17px;
+    }
+  }
+
+  .modal {
+    &-block {
+      width: auto;
+    }
+    &-price{
+      align-self: auto;
+    }
+    &-main {
+      width: 320px;
     }
   }
 
@@ -963,6 +1001,7 @@ body {
       &-additional {
         text-align: center;
         font-size: 18px;
+        max-width: 80%;
       }
     }
     &_form {

@@ -1058,11 +1058,42 @@ body {
 }
 
 @media (max-width: 415px) {
+  .wrapper {
+    padding: 0 15px;
+  }
   .header_content {
     margin-top: 45%;
   }
+  .header_logo-image {
+    width: auto;
+  }
+  .header-hamburger_btn {
+    right: 0;
+  }
+  .header-navigation_list--visible {
+    right: 0;
+  }
   .title-additional {
     font-size: 30px;
+  }
+  .form-block {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 20px;
+  }
+  .form-block_part {
+    width: 80%;
+  }
+  .form-block_part:last-of-type {
+    margin-bottom: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .appartaments_wrapper {
     max-width: 350px;
@@ -1075,6 +1106,17 @@ body {
   }
   .appartaments_text-block {
     font-size: 17px;
+  }
+  .modal-block {
+    width: auto;
+  }
+  .modal-price {
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+  }
+  .modal-main {
+    width: 320px;
   }
   .map {
     width: 300px;
@@ -1092,6 +1134,7 @@ body {
   .mailing_title-additional {
     text-align: center;
     font-size: 18px;
+    max-width: 80%;
   }
   .mailing_form {
     padding: 10px;
