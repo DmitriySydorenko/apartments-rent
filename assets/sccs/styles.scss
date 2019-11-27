@@ -210,7 +210,6 @@ body {
     flex-direction: column;
     align-items: center;
 
-
     &-container {
       width: inherit;
       display: flex;
@@ -735,13 +734,11 @@ body {
 }
 
 @media (max-width: 1000px) {
-
-  .appartaments{
-  &_wrapper {
-    max-width: 500px;
+  .appartaments {
+    &_wrapper {
+      max-width: 500px;
+    }
   }
-
-}
   .header {
     &-navigation {
       position: relative;
@@ -751,7 +748,6 @@ body {
       &-item {
         margin: 0 0 5px 0;
         font-size: 15px;
-        
       }
       &--visible {
         display: flex;
@@ -796,29 +792,28 @@ body {
     }
   }
 
-  
-.form {
-  &-container {
-    width: 95%;
-  }
-  &-block {
-    &_part {
-      flex-direction: column;
-      justify-content: space-between;
+  .form {
+    &-container {
+      width: 95%;
+    }
+    &-block {
+      &_part {
+        flex-direction: column;
+        justify-content: space-between;
 
-      &:last-of-type {
-        margin-bottom: 0;
+        &:last-of-type {
+          margin-bottom: 0;
+        }
       }
-    }
-    &_input {
-      width: 100%;
-      font-size: 13px;
-    }
+      &_input {
+        width: 100%;
+        font-size: 13px;
+      }
 
-    &_label {
-      text-align: center;
-      margin-bottom: 10px;
-    }
+      &_label {
+        text-align: center;
+        margin-bottom: 10px;
+      }
     }
   }
 
@@ -847,7 +842,6 @@ body {
   }
 
   .footer {
-
     &_block {
       padding: 0 50px;
     }
@@ -861,56 +855,53 @@ body {
     }
   }
 
+  .modal {
+    &-main {
+      max-width: 300px;
+      min-height: 300px;
+      padding: 10px;
 
-.modal {
-
-  &-main {
-    max-width: 300px;
-    min-height: 300px;
-    padding: 10px;
-
-    &--min-width {
-      min-width: 200px;
-      max-width: 340px;
-      min-height: 100px;
+      &--min-width {
+        min-width: 200px;
+        max-width: 340px;
+        min-height: 100px;
+      }
     }
-  }
 
-  &-title {
-    font-size: 15px;
-  }
+    &-title {
+      font-size: 15px;
+    }
 
-  &-image {
-    width: 80%;
-  }
+    &-image {
+      width: 80%;
+    }
 
-  &-block {
-    padding-top: 20px;
-    width: 90%;
-  }
+    &-block {
+      padding-top: 20px;
+      width: 90%;
+    }
 
-  &-price {
-    padding-top: 10px;
-    font-size: 12px;
-  }
-
-  &-text {
-    width: 90%;
-    padding: 10px 10px;
-    &--newline {
+    &-price {
+      padding-top: 10px;
       font-size: 12px;
     }
+
+    &-text {
+      width: 90%;
+      padding: 10px 10px;
+      &--newline {
+        font-size: 12px;
+      }
+    }
   }
-}
 
-.button {
-  &_form {
-    min-width: auto;
-    width: 150px;
-  margin: 0 10px;
-
-}
-}
+  .button {
+    &_form {
+      min-width: auto;
+      width: 150px;
+      margin: 0 10px;
+    }
+  }
 }
 
 @media (max-width: 851px) {
@@ -922,17 +913,16 @@ body {
     display: none;
   }
 
-  .header_content{
+  .header_content {
     &-title {
-font-size: 20px;
+      font-size: 20px;
     }
 
     &-text {
-font-size: 15px;
+      font-size: 15px;
     }
   }
 }
-
 
 @media (max-width: 415px) {
   .header_content {
@@ -941,7 +931,7 @@ font-size: 15px;
   .title-additional {
     font-size: 30px;
   }
-  .appartaments{
+  .appartaments {
     &_wrapper {
       max-width: 350px;
     }
@@ -954,8 +944,59 @@ font-size: 15px;
     &_text-block {
       font-size: 17px;
     }
+  }
 
-}
+  .map {
+    width: 300px;
+    height: 300px;
+    &-image {
+      display: none;
+    }
+  }
+
+  .mailing {
+    &_block {
+      width: 90%;
+    }
+    &_title {
+      margin-bottom: 10px;
+      &-additional {
+        text-align: center;
+        font-size: 18px;
+      }
+    }
+    &_form {
+      padding: 10px;
+      &-checkbox {
+        width: 40px;
+        height: 40px;
+        &-label {
+          font-size: 15px;
+        }
+      }
+    }
+    .button_footer {
+      width: 30%;
+    }
+  }
+
+  .footer {
+    &_block {
+      padding: 0 30px;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &_copyright {
+      font-size: 15px;
+      width: 100%;
+      text-align: center;
+      margin-top: 25px;
+    }
+    &_social {
+      width: 100%;
+    }
+  }
 }
 /* 
 

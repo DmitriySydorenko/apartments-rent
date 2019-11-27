@@ -1076,6 +1076,55 @@ body {
   .appartaments_text-block {
     font-size: 17px;
   }
+  .map {
+    width: 300px;
+    height: 300px;
+  }
+  .map-image {
+    display: none;
+  }
+  .mailing_block {
+    width: 90%;
+  }
+  .mailing_title {
+    margin-bottom: 10px;
+  }
+  .mailing_title-additional {
+    text-align: center;
+    font-size: 18px;
+  }
+  .mailing_form {
+    padding: 10px;
+  }
+  .mailing_form-checkbox {
+    width: 40px;
+    height: 40px;
+  }
+  .mailing_form-checkbox-label {
+    font-size: 15px;
+  }
+  .mailing .button_footer {
+    width: 30%;
+  }
+  .footer_block {
+    padding: 0 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer_copyright {
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+  }
+  .footer_social {
+    width: 100%;
+  }
 }
 
 /* 
