@@ -13,6 +13,17 @@ $(document).ready(function() {
   });
 });
 
+// burger-menu
+
+$(".header-hamburger_toogle").click(function() {
+  if($(".header-hamburger_toogle").prop("checked")){
+      $(".header-navigation_list").addClass("header-navigation_list--visible");
+    } else {
+      $(".header-navigation_list").removeClass("header-navigation_list--visible");
+}
+});
+
+
 // slide to 
 
 function scrollToSection(event) {
